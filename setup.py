@@ -8,7 +8,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="imgedit",
-    version="0.1.0",
+    version="0.1.1",
     description="A Python library for editing images",
     long_description=long_description,
     long_description_content_type="text/markdown",

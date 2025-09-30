@@ -1,8 +1,9 @@
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 from .common import *
 from .resize import *
+from .crop import *
 
 
 __all__ = [
@@ -11,4 +12,7 @@ __all__ = [
 
     # resize
     "resize_img_file", "resize_img_img", "ImgBgImg", "ImgBg",
+
+    # crop
+    "crop_transparent_edges_file", "crop_transparent_edges_img"
 ]
